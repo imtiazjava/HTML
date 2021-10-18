@@ -1,0 +1,421 @@
+HTML Heading Tags:
+==================
+<h1>   Main Heading 
+<h2>   Sub Heading 
+...
+<h6>  Least Heading
+Example:
+---------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>
+        <h1>HOME PAGE</h1>
+        <h2>HOME PAGE</h2>
+        <h3>HOME PAGE</h3>
+        <h4>HOME PAGE</h4>
+        <h5>HOME PAGE</h5>
+        <h6>HOME PAGE</h6>
+</body>
+</html>
+
+
+
+HTML Paragraphs:
+----------------
+- We can display a paragraph in the webpage.
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+        <h2>KIRAN CHERUKURI</h2>
+        <h4>MD &CEO</h4>
+        <p>A strategic business leader, played several key leadership roles in Sales, BD, Marketing, P&A, Delivery and Operations with IT Majors HCL Technologies and Tech Mahindra. Over 27 years of his career Kiran incubated and grew business across the globe and nurtured successful partnerships. Most recently with Tech Mahindra he was the Vice President & Group Head responsible for a $ 200 M IMS business across Europe, APAC & MEA regions. Formerly, Kiran worked with HCL – T for about 15 years, played key leadership roles as Head of Marketing + P & A, SBU/Center Head, Global Practice Director, GM & BU Head etc., handled large teams. Kiran is active in IT Industry forums, he is now the Elected Vice President of IT Industry body HYSEA he was a Regional Council Member of NASSCOM in the Past. Active speaker and CSR member, appeared in national, regional Print and Electronic media. As MD & CEO of TechEra Kiran is responsible for Strategic Direction and Client Engagement & BD. Kiran did his BTech from KLU & DBM from ICFAI.</p>
+        <h2>MR Rajendra T</h2>
+        <h4>COO</h4>
+        <p>Raj is a seasoned leader with more than 30 years of experience in IT industry having led Operations, Delivery, Sales, Business Development and Profit Centres. He had built practices, business and delivery centres from scratch. He has converted many bleeding accounts into a successful and profitable ones with high customer satisfaction. He built Satyam’s Nordics practice almost from scratch into a 100+ Million $ business over years. As the COO of TechEra, Raj is responsible for the streamlining and building the organization towards growth in multiple practices, domains and geographies. Raj has done his B.Tech. In Computer Sciences and Specialized Diploma in Marketing Management.</p>
+        <h2>NN RAO</h2>
+        <h4>DIRECTOR & CTO</h4>
+        <p>An accomplished Delivery & Practice Leader with 25 years of IT Industry experience in his 37 years of long Career, with Tech Mahindra ( 16 Yrs ) and DRDO Missile Division (21 Yrs). Founder of Tech M Performance Engineering Practice and was responsible for the practice growth to 500 people strong. His teams executed projects across verticals around the Globe. With a M Tech in Computer Science from University of Roorkee ( Now IIT Roorkee ) and M.Sc in Mathematics from OU , Rao is an Avid Lerner & Technology Researcher, published papers in International Seminars and Symposiums. Now he is a Board Member & Group CTO in TechEra, responsible for steering the APE practice and Technology leadership across the group.</p>
+  </body>
+</html>
+
+Attributes:
+===========
+- Attributes provide the meta information about the  element/tag.
+- Attribute contain the value and value  is inclose in single quote or double quote.
+
+<img>
+Attribte of <img> tag :
+-----------------------
+src : Were we can provide the location of the specific image(of any format).
+alt : We can provide the alternative message to print in browser.
+width :
+height: 
+   - Which can provide the width and height of the image (% or pixel)
+
+Example:
+--------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+        <img src="../images/Tech-Era-Photo.jpg" alt="still processing..." width="300px" height="150px">
+        <h2>KIRAN CHERUKURI</h2>
+        <h4>MD &CEO</h4>
+        <p>A strategic business leader, played several key leadership roles in Sales, BD, Marketing, P&A, Delivery and Operations with IT Majors HCL Technologies and Tech Mahindra. Over 27 years of his career Kiran incubated and grew business across the globe and nurtured successful partnerships. Most recently with Tech Mahindra he was the Vice President & Group Head responsible for a $ 200 M IMS business across Europe, APAC & MEA regions. Formerly, Kiran worked with HCL – T for about 15 years, played key leadership roles as Head of Marketing + P & A, SBU/Center Head, Global Practice Director, GM & BU Head etc., handled large teams. Kiran is active in IT Industry forums, he is now the Elected Vice President of IT Industry body HYSEA he was a Regional Council Member of NASSCOM in the Past. Active speaker and CSR member, appeared in national, regional Print and Electronic media. As MD & CEO of TechEra Kiran is responsible for Strategic Direction and Client Engagement & BD. Kiran did his BTech from KLU & DBM from ICFAI.</p>
+        <img src="../images/rajender_profile_image.jpg" alt="still processing..." width="300px" height="150px">
+     
+        <h2>MR Rajendra T</h2>
+        <h4>COO</h4>
+        <p>Raj is a seasoned leader with more than 30 years of experience in IT industry having led Operations, Delivery, Sales, Business Development and Profit Centres. He had built practices, business and delivery centres from scratch. He has converted many bleeding accounts into a successful and profitable ones with high customer satisfaction. He built Satyam’s Nordics practice almost from scratch into a 100+ Million $ business over years. As the COO of TechEra, Raj is responsible for the streamlining and building the organization towards growth in multiple practices, domains and geographies. Raj has done his B.Tech. In Computer Sciences and Specialized Diploma in Marketing Management.</p>
+        <img src="../images/nn_rao_profile_image.jpg" alt="still processing..." width="300px" height="150px">
+     
+        <h2>NN RAO</h2>
+        <h4>DIRECTOR & CTO</h4>
+        <p>An accomplished Delivery & Practice Leader with 25 years of IT Industry experience in his 37 years of long Career, with Tech Mahindra ( 16 Yrs ) and DRDO Missile Division (21 Yrs). Founder of Tech M Performance Engineering Practice and was responsible for the practice growth to 500 people strong. His teams executed projects across verticals around the Globe. With a M Tech in Computer Science from University of Roorkee ( Now IIT Roorkee ) and M.Sc in Mathematics from OU , Rao is an Avid Lerner & Technology Researcher, published papers in International Seminars and Symposiums. Now he is a Board Member & Group CTO in TechEra, responsible for steering the APE practice and Technology leadership across the group.</p>
+ </body>
+</html>
+
+HTML 5 Tag:
+------------
+<figure>,<figcaption> tags:
+---------------------------
+Example:
+--------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+    <figure>
+        <img src="../images/Tech-Era-Photo.jpg" alt="still processing..." width="300px" height="150px">
+        <figcaption>TECH  ERA CEO PROFILE IMAGE</figcaption>
+    </figure>
+
+        <h2>KIRAN CHERUKURI</h2>
+        <h4>MD &CEO</h4>
+        <p>A strategic business leader, played several key leadership roles in Sales, BD, Marketing, P&A, Delivery and Operations with IT Majors HCL Technologies and Tech Mahindra. Over 27 years of his career Kiran incubated and grew business across the globe and nurtured successful partnerships. Most recently with Tech Mahindra he was the Vice President & Group Head responsible for a $ 200 M IMS business across Europe, APAC & MEA regions. Formerly, Kiran worked with HCL – T for about 15 years, played key leadership roles as Head of Marketing + P & A, SBU/Center Head, Global Practice Director, GM & BU Head etc., handled large teams. Kiran is active in IT Industry forums, he is now the Elected Vice President of IT Industry body HYSEA he was a Regional Council Member of NASSCOM in the Past. Active speaker and CSR member, appeared in national, regional Print and Electronic media. As MD & CEO of TechEra Kiran is responsible for Strategic Direction and Client Engagement & BD. Kiran did his BTech from KLU & DBM from ICFAI.</p>
+        <figure>
+        <img src="../images/rajender_profile_image.jpg" alt="still processing..." width="300px" height="150px">
+            <figcaption>TECH  ERA COO PROFILE IMAGE</figcaption>
+        </figure>
+        <h2>MR Rajendra T</h2>
+        <h4>COO</h4>
+        <p>Raj is a seasoned leader with more than 30 years of experience in IT industry having led Operations, Delivery, Sales, Business Development and Profit Centres. He had built practices, business and delivery centres from scratch. He has converted many bleeding accounts into a successful and profitable ones with high customer satisfaction. He built Satyam’s Nordics practice almost from scratch into a 100+ Million $ business over years. As the COO of TechEra, Raj is responsible for the streamlining and building the organization towards growth in multiple practices, domains and geographies. Raj has done his B.Tech. In Computer Sciences and Specialized Diploma in Marketing Management.</p>
+       <figure>
+        <img src="../images/nn_rao_profile_image.jpg" alt="still processing..." width="300px" height="150px">
+            <figcaption>TECH ERA CTO PROFILE IMAGE</figcaption>
+        </figure>
+        <h2>NN RAO</h2>
+        <h4>DIRECTOR & CTO</h4>
+        <p>An accomplished Delivery & Practice Leader with 25 years of IT Industry experience in his 37 years of long Career, with Tech Mahindra ( 16 Yrs ) and DRDO Missile Division (21 Yrs). Founder of Tech M Performance Engineering Practice and was responsible for the practice growth to 500 people strong. His teams executed projects across verticals around the Globe. With a M Tech in Computer Science from University of Roorkee ( Now IIT Roorkee ) and M.Sc in Mathematics from OU , Rao is an Avid Lerner & Technology Researcher, published papers in International Seminars and Symposiums. Now he is a Board Member & Group CTO in TechEra, responsible for steering the APE practice and Technology leadership across the group.</p>
+        
+    </body>
+</html>
+==============================================================================
+HTML span tag:
+==============
+- We can apply the style  for the respective character or word or sentenace
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+
+    <p>
+          <span style="color: white;background-color:black;font-family: cursive;">The</span> 
+          <span style="color:green;background-color:black;font-family: cursive;">Great</span>
+           <span style="color:red;background-color:black;font-family: cursive;">India</span>    
+    </p>
+    
+</body>
+</html>
+
+
+
+Working with HTML Codes :
+--------------------------
+Refernece for different sybmols:https://www.htmlsymbol.com/currency-symbols/
+
+Example:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+
+   <figure>
+        <img src="../images/mobi.jpeg" width="80px" height="100px">
+    <figcaption>Mobile Moto 660</figcaption>
+   </figure>
+   <h4>&#8377;16,999</h4>
+   <h4><del>&#8377;21,999</del></h4>
+   &#36;<br>
+   &#163;
+</body>
+</html>
+
+
+HTML Text Fromatting:
+======================
+
+1. <del>
+
+2. <sup>
+
+3. <sub>
+
+4. <small>
+
+=============================================================================
+HTML List Tags:
+---------------
+1. Un Ordered List 
+|-> It can represent as <ul> tag 
+        <ul>
+            <li>list1</li>
+            <li>list1<li>
+            .......
+        </ul>
+
+By default it is showing disc shape and if we want  to change then we can use 
+the 'type' attribute of un ordered list as below:
+  type="disc|circle|square|none"
+
+Example:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+         <figure>
+             <img src='../images/log_tech-era.png' width="50px" height="70px">
+         </figure>
+         <ul type="none">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>Services</li>
+                    <ul type="none">
+                            <li>Learning Services</li>
+                            <li>CAD</li>
+
+                    </ul>
+                <li>Clients</li>
+                <li>Contact Us</li>
+
+         </ul>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+2. Ordered List 
+|-> This will represent number,alphabets, roman number. 
+
+|-> <ol> tag 
+
+    <ol>
+
+    </ol>
+
+|-> By default it take the number we can also specify the following :
+        I , i, a, A 
+Example:
+---------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+         <h2>COURSES</h2>
+            <ol type="1">
+                    <li>JEE Technologies</li>
+                        <ul>
+                            <li>Servlet</li>
+                            <li>JSP</li>
+                           </ul>
+                    <li>Frameworks</li>
+                    <ul>
+                        <li>Spring</li>
+                        <li>Struts</li>
+                        <li>Bootstrap</li>
+                    </ul>
+            </ol>
+
+</body>
+</html>
+-----------------------------------------------------------
+HyperLink:
+-----------
+|-> We can represent this hyperlink with  the help of anchor  tag.
+  <a href="" ></a>
+
+Attributes of HyperLink / Anchor Tag :
+-------------------------------------
+1. href 
+2. target
+    I. _self
+    II._blank
+    III._parent 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+         <ul type="none">
+            <li><a href="#">HOME</a></li>
+            <li><a href="service.html" target="_self">Service</a></li>
+            <li><a href="aboutus.html" target="_blank">About US</a></li>
+            <li><a href="clients.html" target="_blank">CLIENTS</a></li>
+
+         </ul>
+</body>
+</html>
+
+Example2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+    <ul type="none">
+            <li>
+            <a href="https://www.flipkart.com" target="_blank"><img src="../images/flipkart.jfif" width="70px" height="50px" ></a>
+            </li>
+            <li>
+                    <a href="https://www.google.com" target="_blank"><img src="../images/google.png" width="70px" height="50px"></a>
+            </li>
+            <li>
+                 <a href="https://www.amazon.com" target="_blank"><img src="../images/amazon.png" width="70px" height="50px"></a>
+            </li>
+                    
+                    
+    </ul>
+</body>
+</html>
+===================================================================================
+HTML Table tag:
+==============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>  
+                  <!-- Table-->
+
+                <table border="5" width="100%">
+                    <!-- 1st Row should Headers-->
+                    <caption>EMPLOYEE DETAILS</caption>
+                    <tr>
+                        <th>EID</th>
+                        <th>ENAME</th>
+                        <th>ESALARY</th>
+                    </tr>
+                    <!-- Inside the  Second Row we can provide the  data-->
+                    <tr>
+                        <td>1001</td>
+                        <td>RAJU</td>
+                        <td>30000</td>
+                    </tr>
+                    <tr>
+                            <td>1002</td>
+                            <td>SUNIL</td>
+                            <td>40000</td>
+                        </tr>
+                        <tr>
+                                <td>1003</td>
+                                <td>SK</td>
+                                <td>50000</td>
+                            </tr>
+                            
+                        
+                </table>
+</body>
+</html>
+
+Rowspan & Colspan:
+==================
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+
+<body>
+    <!-- Table-->
+
+    <table border="5" width="100%">
+        <!-- 1st Row should Headers-->
+        <caption>CUSTOMER DETAILS</caption>
+        <tr>
+            <th>CID</th>
+            <td>AEP123</td>
+        </tr>
+        <!-- Inside the  Second Row we can provide the  data-->
+        <tr>
+            <th rowspan="2">C_PHONE</td>
+            <td>+91-8877665511</td>
+        </tr>
+        <tr>
+            <td>+91-998855443311</td>
+        </tr>
+        <tr>
+            <th>ADDRESS</th>
+            <td>Ameerpet, Hyderabad-512323</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
